@@ -19,6 +19,6 @@
 #### 示例
 - {!terms f=categoryId method=booleanQuery separator=" "}8 6 7 5309
 - {!terms f=tags}software,apache,solr,lucene => tags:(software OR apache OR solr OR lucene)
-- 特殊场景：需要terms query OR 上一个条件，语法调整：____query____:"{!terms f=tags}software,apache,solr,lucene" OR tags: special
+- 特殊场景：需要terms query OR 上一个条件，语法调整：\__query__:"{!terms f=tags}software,apache,solr,lucene" OR tags: special
  
 
