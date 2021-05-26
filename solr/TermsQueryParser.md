@@ -16,7 +16,7 @@
 - separator：用于filter value的分割字符，默认：逗号
 - method：目前支持：termsFilter, booleanQuery, automaton, or docValuesTermsFilter，设定filter 底层实现，默认：termsFilter
 
-#### 事例
+#### 示例
 - {!terms f=categoryId method=booleanQuery separator=" "}8 6 7 5309
 - {!terms f=tags}software,apache,solr,lucene => tags:(software OR apache OR solr OR lucene)
 - 特殊场景：需要terms query OR 上一个条件，生效事例：__query__:"{!terms f=tags}software,apache,solr,lucene" OR tags: special
