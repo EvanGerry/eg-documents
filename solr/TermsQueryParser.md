@@ -8,7 +8,7 @@
 
 
 ### 推荐场景
-- 支持对同一个字段超多值的terms filter，可以绕开maxBooleanClauses[Solr单次请求构建Query查询的最大语句数量，默认1024]限制
+- 支持对同一个字段超多值的terms filter，可以绕开 __maxBooleanClauses__ [Solr单次请求构建Query查询的最大语句数量，默认1024]限制
 
 ### 使用语法
 #### 参数
